@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*----------Основные цета-------------*/
+/*-------------Миксины----------------*/
+/*-----------------*/
+.statistic_block {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  padding-top: 150px;
+}
+.statistic_block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50px;
+  background: #FAA88B;
+}
+.statistic_block .container {
+  max-width: 1200px;
+}
+.statistic_block h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=statistic.css.map */

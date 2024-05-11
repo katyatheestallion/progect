@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*----------Основные цета-------------*/
+/*-------------Миксины----------------*/
+/**/
+.targets_block {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  padding-top: 100px;
+}
+.targets_block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50px;
+  background: #FAA88B;
+}
+.targets_block .container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.targets_block .container .target_content {
+  flex: 1;
+}
+.targets_block .container .target_content .common_item.no_shadow {
+  padding: 0 15px;
+  box-shadow: inset 4px 3px 6px 0 rgba(0, 0, 0, 0.431372549);
+}
+.targets_block .container .target_content .common_item.no_shadow p {
+  padding: 10px 0;
+  padding-right: 30px;
+  border-right: 2px solid #000;
+}
+.targets_block .container .target_content .target_items_block .common_item {
+  padding: 0px 15px;
+}
+.targets_block .container .target_content .target_items_block .common_item input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background: transparent;
+  font-size: 24px;
+  line-height: 0.8;
+  font-weight: 500;
+}
+.targets_block h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.targets_block .target_items_block {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+.targets_block .image {
+  flex: 1;
+  max-width: 400px;
+}
+.targets_block .image img {
+  width: 100%;
+}/*# sourceMappingURL=targets.css.map */
